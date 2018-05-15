@@ -6,7 +6,7 @@ To do
 ------------------------
 ### Modeling
 - [ ] Must to do
-  - [ ] linear regression
+  - [ ] linear regression 진행중..
   - [ ] logistic regression
   - [ ] knn
   - [ ] quadratic
