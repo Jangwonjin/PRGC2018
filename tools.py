@@ -10,12 +10,12 @@ def get_filename(fulllocation):
             break
     return name
 
-def explore_dir(dir,count=0):
+def explore_dir(dir,extension,count=0):
     if count==0:
         global n_dir, n_file, filenames, filelocations
         n_dir=n_file=0
         filenames=filelocations=np.array([])
-    for img_path in sorted(glob.glob(os.path.join(dir,'*.gz'))): # 가져올 파일 명시
+    for img_path in sorted(glob.glob(os.path.join(dir,'*.'+extension))): # 가져올 파일 명시
         if os.path.isdir(img_path):
             n_dir +=1
             explore_dir(img_path,count+1)
