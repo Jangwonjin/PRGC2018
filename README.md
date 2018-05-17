@@ -6,11 +6,24 @@ To do
 ------------------------
 ### Modeling
 - [ ] Must to do
-  - [ ] linear regression
-  - [ ] logistic regression
-  - [ ] knn
-  - [ ] quadratic
-  
+  - [ ] X_1D
+    - [X] knn
+    - [X] RandomForest
+    - [X] SGDClassification
+    - [X] MultiClass
+    
+  - [ ] Y_1D
+    - [ ] knn
+    - [ ] RandomForest
+    - [ ] SGDClassification
+    - [ ] MultiClass
+    
+  - [ ] Z_1D
+    - [ ] knn
+    - [ ] RandomForest
+    - [ ] SGDClassification
+    - [ ] MultiClass
+    
  - [ ] ANN
    - [ ] Perceptron
    - [ ] MLP
