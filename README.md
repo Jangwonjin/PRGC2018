@@ -8,24 +8,22 @@ To do
 - [ ] Must to do<br />
   <i>**The performance will be increased..Maybe..**</i>
   - [X] X_1D
-    - [X] knn
+    - [X] knn,SVM (too slow..)
     - [X] RandomForest
     - [X] SGDClassification
     - [X] MultiClass
     
   - [X] Y_1D
-    - [X] knn
+    - [X] knn,SVM (too slow..)
     - [X] RandomForest
     - [X] SGDClassification
     - [X] MultiClass
     
   - [X] Z_1D
-    - [X] knn
+    - [X] knn,SVM (too slow..)
     - [X] RandomForest
     - [X] SGDClassification
-    - [X] MultiClass
-    
-  - [ ] Support Vector Machine(SVM)  
+    - [X] MultiClass 
     
  - [ ] ANN
    - [ ] Perceptron
