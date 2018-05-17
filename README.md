@@ -5,24 +5,27 @@ The goal of Pattern Recognition Grand Challenge (PRGC) 2018 is to predict a subj
 To do
 ------------------------
 ### Modeling
-- [ ] Must to do
-  - [ ] X_1D
+- [ ] Must to do<br />
+  <i>**The performance will be increased..Maybe..**</i>
+  - [X] X_1D
     - [X] knn
     - [X] RandomForest
     - [X] SGDClassification
     - [X] MultiClass
     
-  - [ ] Y_1D
-    - [ ] knn
-    - [ ] RandomForest
-    - [ ] SGDClassification
-    - [ ] MultiClass
+  - [X] Y_1D
+    - [X] knn
+    - [X] RandomForest
+    - [X] SGDClassification
+    - [X] MultiClass
     
-  - [ ] Z_1D
-    - [ ] knn
-    - [ ] RandomForest
-    - [ ] SGDClassification
-    - [ ] MultiClass
+  - [X] Z_1D
+    - [X] knn
+    - [X] RandomForest
+    - [X] SGDClassification
+    - [X] MultiClass
+    
+  - [ ] Support Vector Machine(SVM)  
     
  - [ ] ANN
    - [ ] Perceptron
