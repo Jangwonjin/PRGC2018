@@ -25,9 +25,9 @@ To do
     - [X] SGDClassification
     - [X] MultiClass 
     
- - [ ] ANN
-   - [ ] Perceptron
-   - [ ] MLP
+ - [X] ANN
+   - [X] Perceptron
+   - [X] MLP
    
  - [ ] Deep Learning<br />
    <i>**`Very Soon...`**</i>
