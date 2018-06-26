@@ -19,7 +19,7 @@ The details of the experiment can be seen in Gianaros et al., 2014 (doi:10.1016/
 
 - Subject's reponses are stored in column Rating.
 
-### 3. *Image visualization*
+### 3. *Data visualization*
 ![dataset](/img/class_img.png)
 
 Results
