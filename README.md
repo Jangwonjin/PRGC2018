@@ -3,7 +3,7 @@ The goal of Pattern Recognition Grand Challenge (PRGC) 2018 is to predict a subj
 
 Dataset
 ----------------------------------------------------------
-### 1. fMRI data
+### 1. *fMRI data*
 <https://neurovault.org/collections/503/>
 
 This dataset contains single trial responses to 30 images from the International Affective Picture Set from 182 subjects. These data were used to train the Picture Induced Negative Emotion Signature described in Chang et al., 2015.
@@ -14,15 +14,48 @@ The details of the experiment can be seen in Gianaros et al., 2014 (doi:10.1016/
 
 - Neutral photographs (Pictures: 5720, 5800, 7000, 7006, 7010, 7040, 7060, 7090, 7100,7130, 7150, 7217, 7490, 7500, 9210) depicted inanimate objects (10 photographs) or neutral scenes (5 photographs).
 
-### 2. Emotion level data
+### 2. *Emotion level data*
 - <https://s3-eu-west-1.amazonaws.com/pstorage-plos-3567654/2129473/S1_Data.csv>
 
 - Subject's reponses are stored in column Rating.
 
-### 3. Image visualization
-![dataset][/img/class_img.png]
+### 3. *Image visualization*
+![dataset](/img/class_img.png)
 
+Results
+========================================================================
+Ver1.
+---------------------------------------------------------------------
+### Multiclass
+| x | y | z |
+| :----------: | :----------: | :----------: |
+| ![multi_x](/img/ver1/result_multi_x.png) | ![multi_y](/img/ver1/result_multi_y.png) | ![multi_z](/img/ver1/result_multi_z.png) |
 
+### Randomforest
+| x | y | z |
+| :----------: | :----------: | :----------: |
+| ![random_x](/img/ver1/result_random_x.png) | ![random_y](/img/ver1/result_random_y.png) | ![random_z](/img/ver1/result_random_z.png) |
+
+### SGDClassifier
+| x | y | z |
+| :----------: | :----------: | :----------: |
+| ![sgd_x](/img/ver1/result_sgd_x.png) | ![sgd_y](/img/ver1/result_sgd_y.png) | ![sgd_z](/img/ver1/result_sgd_z.png) |
+
+Ver2.
+---------------------------------------------------------------------
+### *XYZ*
+| **SGDClassifier** | **KNN** |
+| :----------: | :----------: |
+| ![sgd](/img/ver2/xyz/bbox_SGD.png) | ![KNN](/img/ver2/xyz/bbox_knn.png) |
+| **Multiclass** | **Randomforest** |
+| ![multi](/img/ver2/xyz/bbox_multiclass.png) | ![random](/img/ver2/xyz/bbox_randomforest.png) |
+
+### *YZX*
+| **SGDClassifier** | **KNN** |
+| :----------: | :----------: |
+| ![sgd](/img/ver2/yzx/bbox_sgd.png) | ![KNN](/img/ver2/yzx/bbox_knn.png) |
+| **Multiclass** | **Randomforest** |
+| ![multi](/img/ver2/yzx/bbox_multi.png) | ![random](/img/ver2/yzx/bbox_random.png) |
 
 Reference
 --------------------------------------------------------------------------
