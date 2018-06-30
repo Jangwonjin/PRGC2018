@@ -57,6 +57,8 @@ Ver2.
 | **Multiclass** | **Randomforest** |
 | ![multi](/img/ver2/yzx/bbox_multi.png) | ![random](/img/ver2/yzx/bbox_random.png) |
 
+I achievd 54% accuracy. 
+
 Reference
 --------------------------------------------------------------------------
 [A Sensitive and Specific Neural Signature for Picture-Induced Negative Affect](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002180)
