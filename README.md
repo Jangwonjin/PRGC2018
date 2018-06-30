@@ -57,7 +57,7 @@ Ver2.
 | **Multiclass** | **Randomforest** |
 | ![multi](/img/ver2/yzx/bbox_multi.png) | ![random](/img/ver2/yzx/bbox_random.png) |
 
-I achievd 54% accuracy. 
+I achieved **54%** accuracy. 
 
 Reference
 --------------------------------------------------------------------------
