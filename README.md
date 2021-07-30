@@ -1,9 +1,10 @@
 # Pattern Recognition Grand Challenge 2018 
 The goal of Pattern Recognition Grand Challenge (PRGC) 2018 is to predict a subject's emotional state from the fMRI image of his or her brain. In the PINES dataset below, 183 subjects' fMRI images and emotional states are provided. Build a model to predict a subject's emotional state (Y) from an fMRI image (X).
 
-Dataset
-----------------------------------------------------------
-### 1. *fMRI data*
+
+## :memo: DATASET WHAT I USED
+
+### 1. fMRI Data
 <https://neurovault.org/collections/503/>
 
 This dataset contains single trial responses to 30 images from the International Affective Picture Set from 182 subjects. These data were used to train the Picture Induced Negative Emotion Signature described in Chang et al., 2015.
@@ -14,17 +15,19 @@ The details of the experiment can be seen in Gianaros et al., 2014 (doi:10.1016/
 
 - Neutral photographs (Pictures: 5720, 5800, 7000, 7006, 7010, 7040, 7060, 7090, 7100,7130, 7150, 7217, 7490, 7500, 9210) depicted inanimate objects (10 photographs) or neutral scenes (5 photographs).
 
-### 2. *Emotion level data*
-- <https://s3-eu-west-1.amazonaws.com/pstorage-plos-3567654/2129473/S1_Data.csv>
+### 2. Emotion-level Data
+<https://s3-eu-west-1.amazonaws.com/pstorage-plos-3567654/2129473/S1_Data.csv>
 
 - Subject's reponses are stored in column Rating.
 
-### 3. *Data visualization*
+### 3. Data Visualization
 ![dataset](/img/class_img.png)
 
-Results
-========================================================================
-Ver1.
+## :memo: RESULTS
+
+The results are divided into two versions of preprocessing.
+
+:point_up: Ver1.
 ---------------------------------------------------------------------
 ### Multiclass
 | x | y | z |
@@ -41,7 +44,7 @@ Ver1.
 | :----------: | :----------: | :----------: |
 | ![sgd_x](/img/ver1/result_sgd_x.png) | ![sgd_y](/img/ver1/result_sgd_y.png) | ![sgd_z](/img/ver1/result_sgd_z.png) |
 
-Ver2.
+:v: Ver2.
 ---------------------------------------------------------------------
 ### *XYZ*
 | **SGDClassifier** | **KNN** |
@@ -57,9 +60,9 @@ Ver2.
 | **Multiclass** | **Randomforest** |
 | ![multi](/img/ver2/yzx/bbox_multi.png) | ![random](/img/ver2/yzx/bbox_random.png) |
 
-I achieved **54%** accuracy. 
+As a result, I got **54%** accuracy.
 
-Reference
---------------------------------------------------------------------------
+## :memo: Reference
+
 [A Sensitive and Specific Neural Signature for Picture-Induced Negative Affect](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002180)
 
