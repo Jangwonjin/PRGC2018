@@ -2,7 +2,7 @@
 The goal of Pattern Recognition Grand Challenge (PRGC) 2018 is to predict a subject's emotional state from the fMRI image of his or her brain. In the PINES dataset below, 183 subjects' fMRI images and emotional states are provided. Build a model to predict a subject's emotional state (Y) from an fMRI image (X).
 
 
-## :memo: DATASET
+## :memo: Dataset
 
 ### 1. fMRI Data
 <https://neurovault.org/collections/503/>
@@ -23,7 +23,7 @@ The details of the experiment can be seen in Gianaros et al., 2014 (doi:10.1016/
 ### 3. Data Visualization
 ![dataset](/img/class_img.png)
 
-## :memo: RESULTS
+## :memo: Results
 
 The results are divided into two versions of preprocessing.
 
